@@ -1,19 +1,64 @@
-###  🤝 Ask4Help Application | Manual Testing 
-**🛠️ Technologies:** ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=Jira&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=Microsoft-Excel&logoColor=white) ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=XAMPP&logoColor=white)
+# 🤝 Ask4Help Application - Manual Testing
+### by Mohamed Kamal Fathy | Software Test Engineer
 
-**📝 Project Description:**  
-A community platform connecting users needing assistance with volunteers. Conducted full manual testing lifecycle from requirements analysis to defect reporting.
+![Community Help App](https://img.freepik.com/free-vector/community-volunteers-concept-illustration_114360-7483.jpg)
 
-**✨ Key Testing Activities:**
-- ✅ Designed **150+ test cases** covering all user flows
-- 🐛 Identified and tracked **45+ defects** using Jira
-- 🔍 Performed **database validation** with MySQL
-- 🌐 Conducted **cross-browser testing** (Chrome, Firefox, Edge)
-- 📱 Responsiveness testing on multiple devices
-- 🔒 Security testing for user authentication flows
 
-**📊 Test Metrics:**
-```text
-Test Coverage: 92%
-Defect Detection Rate: 88%
-Critical Bugs Found: 12
+**🛠️ Tools Used:** ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=Jira&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=Microsoft-Excel&logoColor=white) ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=XAMPP&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=Postman&logoColor=white)
+
+## 🔍 Key Testing Activities
+
+1. **Requirements Analysis**  
+   - Reviewed 45+ functional requirements  
+   - Identified 12 ambiguous specifications  
+   - Created requirement traceability matrix  
+
+2. **Test Planning**  
+   - Developed test strategy document  
+   - Estimated 120 person-hours effort  
+   - Defined entry/exit criteria  
+
+3. **Test Case Design**  
+   - Created 150+ test cases in Excel  
+   - Covered 95% requirement scope  
+   - Included positive/negative scenarios  
+
+4. **Functional Testing**  
+   - Verified help request workflow  
+   - Tested volunteer matching logic  
+   - Validated notification system  
+
+5. **Database Testing**  
+   - Executed 25+ SQL queries for validation  
+   - Tested data integrity across 8 tables  
+   - Verified transaction rollbacks  
+
+6. **API Testing**  
+   - Validated 18 REST endpoints  
+   - Tested error codes and responses  
+   - Verified authentication flows  
+
+7. **Reporting**  
+   - Documented 47 defects in Jira  
+   - Created test summary reports  
+   - Presented metrics to stakeholders  
+
+## 📊 Comprehensive Test Metrics
+
+### Test Execution Summary
+| Module               | Test Cases | Passed | Failed | Coverage |
+|----------------------|------------|--------|--------|----------|
+| User Registration    | 35         | 32     | 3      | 91%      |
+| Help Request         | 45         | 41     | 4      | 91%      |
+| Volunteer Matching   | 30         | 27     | 3      | 90%      |
+| Notification System  | 20         | 18     | 2      | 90%      |
+| Admin Panel          | 20         | 19     | 1      | 95%      |
+
+### Defect Distribution
+```mermaid
+pie
+    title Defect Severity Distribution
+    "Critical" : 8
+    "High" : 15
+    "Medium" : 18
+    "Low" : 6
