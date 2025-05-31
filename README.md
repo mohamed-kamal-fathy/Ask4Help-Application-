@@ -1,7 +1,7 @@
 # 🤝 Ask4Help Application - Manual Testing
 ### by Mohamed Kamal Fathy | Software Test Engineer
 
-![Community Help App](https://img.freepik.com/free-vector/community-volunteers-concept-illustration_114360-7483.jpg)
+
 
 
 **🛠️ Tools Used:** ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=Jira&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=Microsoft-Excel&logoColor=white) ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=XAMPP&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=Postman&logoColor=white)
